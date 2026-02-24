@@ -3,9 +3,19 @@ const letters = ['H', 'e', 'l', 'l', 'o'] // eslint-disable-line no-unused-vars
 let sum = 0 // eslint-disable-line prefer-const
 let word = '' // eslint-disable-line prefer-const
 
+// nodemon --exec "cls && node src/02-for-loop-and-arrays.js"
+
 // TODO: Add code below this line to make the tests pass
 
 // 1. Use a for loop to set the sum variable to the sum of all the values in nums
+
+console.log("esercizio 1")
+
+for (let i = 0; i < nums.length; i++) {
+  sum += nums[i]
+}
+
+console.log(sum)
 
 // 2. Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
 const doubledNums = []

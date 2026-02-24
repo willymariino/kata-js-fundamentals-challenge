@@ -4,7 +4,7 @@ const evenNums = []
 const countdown = []
 
 //comando per attivare il refresh:
-// nodemon --exec "cls && node src/01-for-loop-basic.js"
+// nodemon --exec "cls && node src/01-for-loop-basic.js
 
 console.log("Esercizio 1")
 // TODO: 1. Write a for loop that adds the numbers 0 to 3 to the numsZeroToThree array

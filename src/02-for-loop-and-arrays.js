@@ -28,7 +28,15 @@ for (let i = 0; i < nums.length; i++) {
 
 console.log(doubledNums)
 
+
 // 3. Use a for loop to set word equal to all the letters in the letters array
+console.log("esercizio 3")
+
+for (let i = letters.length - 1; i >= 0; i--) {
+  word += letters[i]
+}
+
+console.log(word)
 
 // 4. Use a for loop to populate everySecondNum with every second number from the nums array
 const everySecondNum = []

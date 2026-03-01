@@ -1,8 +1,15 @@
+// nodemon --exec "cls && node src/03-objects.js"
+
 // Don't change the person variable directly on line 2
 const person = { age: 32, size: 'Small' }
 
 // 1. Give the person object a name property with the value Matt
+const personName = {
+  ...person,
+  name: "Matt"
+}
 
+console.log(personName)
 // 2. Remove the size property from the person
 
 // 3. Increase the person's age by 11

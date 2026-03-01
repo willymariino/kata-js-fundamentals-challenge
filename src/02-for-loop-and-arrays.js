@@ -32,17 +32,33 @@ console.log(doubledNums)
 // 3. Use a for loop to set word equal to all the letters in the letters array
 console.log("esercizio 3")
 
-for (let i = letters.length - 1; i >= 0; i--) {
+for (let i = 0; i < letters.length; i++) {
   word += letters[i]
 }
 
 console.log(word)
 
 // 4. Use a for loop to populate everySecondNum with every second number from the nums array
+console.log("esercizio 4")
 const everySecondNum = []
 
+for (let i = 0; i < nums.length; i += 2) {
+  everySecondNum.push(nums[i])
+}
+
+console.log(everySecondNum)
+
 // 5. Use a for loop to populate numsReversed with the numbers from nums in reverse order
+
+console.log("esercizio 5")
+
 const numsReversed = []
+
+for (let i = nums.length - 1; i >= 0; i--) {
+  numsReversed.push(nums[i])
+}
+
+console.log(numsReversed)
 
 // do not change below this line
 module.exports = {

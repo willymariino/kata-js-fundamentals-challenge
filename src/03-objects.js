@@ -31,8 +31,17 @@ person.age = person.age + 11
 console.log(person)
 
 // 4. Add an instruments property to the person, initialised as an empty array
+console.log("esercizio 4")
+person.instruments = []
+console.log(person)
+
 
 // 5. Add the following instruments to the persons instruments array: Guitar, Piano, Vocals
+console.log("esercizio 5")
+
+person.instruments = person.instruments.push(" Guitar", "piano", "vocals")
+
+console.log(person)
 
 // 6. Using an index on the instruments array, set the mainInstrument variable below
 // to the third instrument in the array

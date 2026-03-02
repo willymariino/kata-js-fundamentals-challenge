@@ -42,11 +42,21 @@ console.log(word)
 console.log("esercizio 4")
 const everySecondNum = []
 
-for (let i = 0; i < nums.length; i += 2) {
+// cosa si aspetta il test test('everySecondNum should be 3,5,6,1', () => {
+//   expect(d).toEqual([3, 5, 6, 1]);
+// });
+for (let i = 1; i < nums.length; i += 2) {
   everySecondNum.push(nums[i])
 }
+// [ 1, 12, 1, 4, 10 ]
+
+// const nums = [1, 3, 12, 5, 1, 6, 4, 1, 10]
 
 console.log(everySecondNum)
+
+console.log(nums[1])
+console.log(nums[3])
+console.log(nums[5])
 
 // 5. Use a for loop to populate numsReversed with the numbers from nums in reverse order
 

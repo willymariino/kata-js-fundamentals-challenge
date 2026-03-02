@@ -35,6 +35,15 @@ console.log(capitaliseString("umberto"))
 
 // 3. Define a function that takes any person's name and returns it with a smiley :)!
 // Remember to make the name capitalized!
+
+console.log("esercizio 3")
+
+function capitaliseStringWithSmiley(string) {
+  return "Hi," + " " + string.charAt(0).toUpperCase() + string.slice(1) + " " + ":)!"
+}
+
+console.log(capitaliseStringWithSmiley("Aiyana"))
+
 //
 // Example Input and Output:
 //

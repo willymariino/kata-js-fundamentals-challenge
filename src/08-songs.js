@@ -1,15 +1,15 @@
 /**
-  Esercizi sulle canzoni
-  1. Recupera i titoli di tutte le canzoni pubblicate dopo il 2015.
-  2. Trova la canzone più lunga (in base alla durata).
-  3. Conta quante canzoni appartengono al genere "Rock".
-  4. Ottieni i nomi degli artisti delle canzoni con durata superiore a 4 minuti.
-  5. Verifica se esiste almeno una canzone del genere "Jazz".
-  6. Calcola la durata media di tutte le canzoni.
-  7. Filtra le canzoni pubblicate negli anni '70.
-  8. Ordina le canzoni per anno di pubblicazione (dal più recente al più vecchio).
-  9. Raggruppa le canzoni per genere musicale.
-  10. Trova il titolo della prima canzone che dura meno di 4 minuti.
+  Song exercises
+  1. Get the titles of all songs released after 2015.
+  2. Find the longest song (by duration).
+  3. Count how many songs belong to the "Rock" genre.
+  4. Get the names of the artists of songs longer than 4 minutes.
+  5. Check if there is at least one song of the "Jazz" genre.
+  6. Calculate the average duration of all songs.
+  7. Filter the songs released in the 1970s.
+  8. Sort the songs by release year (from most recent to oldest).
+  9. Group the songs by musical genre.
+  10. Find the title of the first song shorter than 4 minutes.
 */
 
 const songs = [
@@ -20,54 +20,54 @@ const songs = [
   { title: 'Take Five', artist: 'Dave Brubeck', year: 1959, duration: 5.24, genre: 'Jazz' },
 ];
 
-// 1. Recupera i titoli di tutte le canzoni pubblicate dopo il 2015
+// 1. Get the titles of all songs released after 2015
 function getTitlesAfter2015(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 2. Trova la canzone più lunga (in base alla durata)
+// 2. Find the longest song (by duration)
 function getLongestSong(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 3. Conta quante canzoni appartengono al genere "Rock"
+// 3. Count how many songs belong to the "Rock" genre
 function countRockSongs(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 4. Ottieni i nomi degli artisti delle canzoni con durata superiore a 4 minuti
+// 4. Get the names of the artists of songs longer than 4 minutes
 function getArtistsOver4Minutes(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 5. Verifica se esiste almeno una canzone del genere "Jazz"
+// 5. Check if there is at least one song of the "Jazz" genre
 function hasJazzSong(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 6. Calcola la durata media di tutte le canzoni
+// 6. Calculate the average duration of all songs
 function getAverageSongDuration(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 7. Filtra le canzoni pubblicate negli anni '70
+// 7. Filter the songs released in the 1970s
 function filterSongsFromSeventies(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 8. Ordina le canzoni per anno di pubblicazione (dal più recente al più vecchio)
+// 8. Sort the songs by release year (from most recent to oldest)
 function sortSongsByYearDesc(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 9. Raggruppa le canzoni per genere musicale
+// 9. Group the songs by musical genre
 function groupSongsByGenre(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 10. Trova il titolo della prima canzone che dura meno di 4 minuti
+// 10. Find the title of the first song shorter than 4 minutes
 function getFirstSongUnder4Minutes(songs) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
 module.exports = {

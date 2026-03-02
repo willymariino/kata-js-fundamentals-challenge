@@ -1,16 +1,16 @@
 /*
-  Esercizi sugli impiegati
+  Employee exercises
 
-  1. Filtra gli impiegati in vacanza
-  2. Trova il nome dell'impiegato più giovane
-  3. Conta quanti impiegati non sono in vacanza
-  4. Verifica se ci sono impiegati con più di 50 anni
-  5. Calcola l'età media degli impiegati
-  6. Raggruppa gli impiegati per stato di vacanza (onHoliday: true/false)
-  7. Ottieni i nomi degli impiegati con più di 30 anni
-  8. Verifica se tutti gli impiegati sono maggiorenni
-  9. Ordina gli impiegati per età (dal più giovane al più anziano)
-  10. Restituisci il primo impiegato che è in vacanza
+  1. Filter employees who are on holiday
+  2. Find the name of the youngest employee
+  3. Count how many employees are not on holiday
+  4. Check if there are employees older than 50
+  5. Calculate the average age of employees
+  6. Group employees by holiday status (onHoliday: true/false)
+  7. Get the names of employees older than 30
+  8. Check if all employees are adults
+  9. Sort employees by age (from youngest to oldest)
+  10. Return the first employee who is on holiday
 */
 
 const employees = [
@@ -21,54 +21,54 @@ const employees = [
   { name: 'Anne', age: 37, onHoliday: false },
 ];
 
-// 1. Filtra gli impiegati in vacanza
+// 1. Filter employees who are on holiday
 function filterEmployeesOnHoliday(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 2. Trova il nome dell'impiegato più giovane
+// 2. Find the name of the youngest employee
 function getYoungestEmployeeName(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 3. Conta quanti impiegati non sono in vacanza
+// 3. Count how many employees are not on holiday
 function countEmployeesNotOnHoliday(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 4. Verifica se ci sono impiegati con più di 50 anni
+// 4. Check if there are employees older than 50
 function hasEmployeesOverFifty(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 5. Calcola l'età media degli impiegati
+// 5. Calculate the average age of employees
 function getAverageEmployeeAge(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 6. Raggruppa gli impiegati per stato di vacanza (onHoliday: true/false)
+// 6. Group employees by holiday status (onHoliday: true/false)
 function groupEmployeesByHolidayStatus(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 7. Ottieni i nomi degli impiegati con più di 30 anni
+// 7. Get the names of employees older than 30
 function getEmployeeNamesOverThirty(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 8. Verifica se tutti gli impiegati sono maggiorenni
+// 8. Check if all employees are adults
 function areAllEmployeesAdults(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 9. Ordina gli impiegati per età (dal più giovane al più anziano)
+// 9. Sort employees by age (from youngest to oldest)
 function sortEmployeesByAge(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
-// 10. Restituisci il primo impiegato che è in vacanza
+// 10. Return the first employee who is on holiday
 function getFirstEmployeeOnHoliday(employees) {
-  // TODO: implementa la funzione
+  // TODO: implement this function
 }
 
 module.exports = {

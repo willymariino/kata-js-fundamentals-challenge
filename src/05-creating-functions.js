@@ -54,6 +54,13 @@ console.log(capitaliseStringWithSmiley("Aiyana"))
 // TODO: write code below
 
 // 4. Define a function that takes an array of data and returns how many strings are in the array.
+console.log("esercizio 4")
+
+function arrayLength(arr) {
+  return arr.length
+}
+
+console.log(arrayLength(['edward']))
 //
 // Example Input and Output:
 //

@@ -1,3 +1,6 @@
+// nodemon --exec "cls && node src/05-creating-functions.js"
+
+
 // 1. Define a function that takes a number and increments it by 1.
 //
 // Example Input and Output:
@@ -12,6 +15,14 @@ function incrementByOne(a) {
 }
 
 // 2. Define a function that capitalises any string
+
+console.log("esercizio 2")
+
+function capitaliseString(string) {
+  return string.charAt(0).toUpperCase()
+}
+
+console.log(capitaliseString("umberto"))
 
 // Example Input and Output:
 //

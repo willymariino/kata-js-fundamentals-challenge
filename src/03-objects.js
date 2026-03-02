@@ -39,7 +39,7 @@ console.log(person)
 // 5. Add the following instruments to the persons instruments array: Guitar, Piano, Vocals
 console.log("esercizio 5")
 
-person.instruments = person.instruments.push(" Guitar", "piano", "vocals")
+person.instruments.push(" Guitar", "piano", "vocals")
 
 console.log(person)
 

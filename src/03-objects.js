@@ -45,11 +45,27 @@ console.log(person)
 
 // 6. Using an index on the instruments array, set the mainInstrument variable below
 // to the third instrument in the array
-const mainInstrument = undefined
+
+console.log("esercizio 6")
+
+const mainInstrument = person.instruments[2]
+
+console.log(person)
 
 // 7. Add a profession property to the person, which is an object
+console.log("esercizio 7")
+
+person.profession = {
+  title: "Developer",
+  years: 5
+}
+
+console.log(person)
+
 
 // 8. Add a name property to the profession object with the value Musician
+
+
 
 // 9. Add a friends property to the person, which is an empty array
 

@@ -19,7 +19,7 @@ function incrementByOne(a) {
 console.log("esercizio 2")
 
 function capitaliseString(string) {
-  return string.charAt(0).toUpperCase()
+  return string.charAt(0).toUpperCase() + string.slice(1)
 }
 
 console.log(capitaliseString("umberto"))

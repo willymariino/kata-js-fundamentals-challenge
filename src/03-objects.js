@@ -26,7 +26,7 @@ console.log(person)
 // 3. Increase the person's age by 11
 console.log("esercizio 3")
 
-person.age = age + 11
+person.age = person.age + 11
 
 console.log(person)
 

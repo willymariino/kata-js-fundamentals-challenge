@@ -28,12 +28,21 @@ console.log("esercizio 1")
 const hello = sayHello();
 
 console.log(hello)
-// 2. Set this variable variable to 'Hello Jane' calling the sayHelloTo function
 
-const helloToJane = ''
+// 2. Set this variable variable to 'Hello Jane' calling the sayHelloTo function
+console.log("esercizio 2")
+
+const helloToJane = sayHelloTo("Jane")
+
+console.log(helloToJane)
 
 // 3. Set this variable to 'Hello Bob! Hello Bob! Hello Bob!' calling the sayHelloManyTimes function
-const helloToBob3Times = ''
+
+console.log("esercizio 3")
+
+const helloToBob3Times = sayHelloManyTimes("BoB", 3)
+
+console.log(helloToBob3Times)
 
 // do not edit below this line
 module.exports = {

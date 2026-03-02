@@ -56,22 +56,34 @@ console.log(person)
 console.log("esercizio 7")
 
 person.profession = {
-  title: "Developer",
-  years: 5
+
 }
 
 console.log(person)
 
 
 // 8. Add a name property to the profession object with the value Musician
+console.log("esercizio 8")
 
+person.profession.name = "musician"
 
+console.log(person)
 
 // 9. Add a friends property to the person, which is an empty array
 
+console.log("esercizio 9")
+
+person.friends = []
+
 // 10. Add two objects to the persons friends array with the following properties:
+console.log("esercizio 10")
+
 // Friend one: name - Chris, age - 46
 // Friend two: name - Dom, age - 43
+
+person.friends.push({ name: "Chris", age: 46 }, { name: "Dom", age: 43 })
+
+console.log(person)
 
 // 11. Using an index on the persons friends array, set the bestFriend variable below
 // to the name of the first friend in the array

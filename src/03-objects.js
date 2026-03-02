@@ -4,15 +4,31 @@
 const person = { age: 32, size: 'Small' }
 
 // 1. Give the person object a name property with the value Matt
+console.log("esercizio 1")
+
 const personName = {
   ...person,
   name: "Matt"
 }
 
+person.name = "Matt";
+
 console.log(personName)
+
+
 // 2. Remove the size property from the person
+console.log("esercizio 2")
+
+delete person.size
+
+console.log(person)
 
 // 3. Increase the person's age by 11
+console.log("esercizio 3")
+
+person.age = age + 11
+
+console.log(person)
 
 // 4. Add an instruments property to the person, initialised as an empty array
 
